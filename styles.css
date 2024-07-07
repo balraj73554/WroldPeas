@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --pcolor:rgb(53, 101, 52);
+}
+.logo{
+    margin: 5px;
+    font-weight: bold;
+    font-family: cursive;
+}
+header{
+    margin: 0 0 45px 0;
+}
+header nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+}
+header nav ul{
+    display: flex;  
+}
+header nav ul li{
+    padding: 5px 10px;
+    margin: 5px 15px;
+    list-style: none;
+    color: var(--pcolor);
+    cursor: pointer;
+}
+header nav ul li:hover{
+    background-color: rgb(234, 234, 234);
+    border-radius: 15px;
+}
+header nav ul li a{
+    text-decoration: none;
+    background-color: var(--pcolor);
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius:15px ;
+}
+section{
+    width: 100%;
+    height: auto;
+    margin: 0 0 25px 0;
+}
+section .main-headline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+.browse-box{
+    width: 55%;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.browse-btn{
+    background-color: var(--pcolor);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin: 0 0 35px 0;
+}
+section p{
+    width: 50%;
+}
+.section-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 15px; 
+    margin: 0 0 30px 0;
+}
+.section-cards{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    border-radius: 15px;
+}
+.card-box1{
+    width: 300px;
+    height: 400px;
+}
+.card-box2{
+    width: 400px;
+    height: 250px;
+}
+.card-img{
+    width: 100%;
+    overflow: hidden;
+}
+.card1-desc{
+    font-size: 12px;
+}
+footer{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 15px;  
+    background-color: rgb(208, 208, 208);
+}
+.footer-box1{
+    width: auto;
+    height:100%;
+    display: flex;
+    justify-content: start;
+}
+.footer-box2{
+    width: 40%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+.footer-box2,.footer-box1 p{
+    font-size: 13px;
+}
